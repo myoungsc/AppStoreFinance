@@ -96,6 +96,9 @@ class VcAppDetail: UIViewController {
         btnDown.layer.cornerRadius = btnDown.frame.size.width/5.0
         btnEtc.layer.cornerRadius = btnEtc.frame.size.width/2.0
         
+        print(appTitle)
+        print(appSubTitle)
+        
         lbTitle.text = appTitle
         lbSubTitle.text = appSubTitle
         lbRank.text = appRank

@@ -53,7 +53,6 @@ class ModelFinanceList: NSObject {
         }
     }
     
-    
     //MARK: ## Getter Method ##
     func getAppNameFromIndex(_ index: Int) -> String { // get App Name
         guard let temp: [String: Any] = arrInfo[index] else { return "" }

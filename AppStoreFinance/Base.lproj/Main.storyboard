@@ -272,9 +272,6 @@
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hBu-Qs-8wk">
                                         <rect key="frame" x="130" y="5" width="225" height="0.0"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" id="5KK-NU-VjS"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -599,7 +596,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="test kakao" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mjO-WZ-TZR">
-                                                <rect key="frame" x="20" y="76.5" width="59" height="15"/>
+                                                <rect key="frame" x="20" y="77" width="59" height="15"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                 <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -1072,7 +1069,6 @@
                                     <constraint firstItem="Da1-Ra-ix3" firstAttribute="leading" secondItem="ucH-14-nAv" secondAttribute="leading" id="4vx-CG-o33"/>
                                     <constraint firstItem="slc-LP-UTg" firstAttribute="trailing" secondItem="Da1-Ra-ix3" secondAttribute="trailing" id="6IX-z1-CKQ"/>
                                     <constraint firstItem="hYj-4k-Jfz" firstAttribute="leading" secondItem="zfN-Lz-5Ev" secondAttribute="trailing" constant="10" id="8sW-EX-wRf"/>
-                                    <constraint firstItem="hBu-Qs-8wk" firstAttribute="top" secondItem="hYj-4k-Jfz" secondAttribute="bottom" constant="-2" id="Brb-RZ-U7O"/>
                                     <constraint firstItem="D8w-jT-uGe" firstAttribute="top" secondItem="dmC-Gs-jVL" secondAttribute="bottom" constant="15" id="BsP-fF-7rK"/>
                                     <constraint firstItem="qxm-qb-BMc" firstAttribute="centerX" secondItem="ucH-14-nAv" secondAttribute="centerX" constant="30" id="LkC-st-R6o"/>
                                     <constraint firstItem="vIe-kd-csH" firstAttribute="leading" secondItem="zfN-Lz-5Ev" secondAttribute="trailing" constant="10" id="MjD-hq-KgR"/>
